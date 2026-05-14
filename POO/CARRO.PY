@@ -1,0 +1,3 @@
+A
+class carro:
+  pass
