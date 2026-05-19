@@ -14,13 +14,16 @@ class carro:
 
 def __init__(self,marca, modelo ,ano , velocidadade=0):
   
-  self.marca= marca
-  self.modelo= modelo
-  self.ano= ano
-  self.velocidade= velocidadade
+  self.marca = marca
+  self.modelo = modelo
+  self.ano = ano
+  self.velocidade = velocidadade
 
 
   carro1 = carro("chevrolet","S10", 2013)
   
   # Exibir informacoes do carro
-  print(F"marca: {self}")
+  print(F"marca: {carro1.marca}")
+  print(F"modelo: {carro1.modelo}")
+  print(F"ano: {carro1.ano}")
+  

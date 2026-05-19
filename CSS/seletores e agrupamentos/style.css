@@ -1,0 +1,49 @@
+/* seletores e agrupamentos */
+
+
+/*
+
+* {seletor universal: abriga todos os elementos}
+
+ p {seletor tipo: selecionar todas as tags <p> }
+
+ . alerta  { seletor Classe: seleciona todos os
+   calss="alerta"}
+
+# principal {seletor ID: seleciona o elemento com
+id="principal"}
+
+ margin: 0%; (faz com que a distancia da borda da pagina diminua)
+
+
+
+ <h2 id="principal">subtitulo</h2> 
+*/ 
+
+   
+    
+
+* { 
+    color: rgb(106, 35, 199);
+}
+
+h1 {
+    color:rgb(124, 129, 125);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.alerta {
+    color:blueviolet;
+}
+
+
+#principal {
+    background-color: aqua;
+    color : #FFF;
+}
+
